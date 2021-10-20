@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://specificity.keegan.st/ */
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        body {
+            background-color: lightcoral;
+        }
+
+        div {
+
+            background-color: lightpink;
+            text-align: justify;
+            font-style: oblique;
+            font-size: 20pxP;
+            border: solid crimson 2px;
+            margin: 5px 10px;
+        }
+
+        div:hover {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Valores de Especificidade no CSS</h1>
+    <div id="unico1" class="estilo">
+        #unico1 vs .estilo vs inline
+    </div>
+    <div id="unico2" class="estilo">#unico2 vs .estilo</div>
+    <div class="estilo" wm-cor>.estilo vs wm-cor</div>
+    <div wm-cor>wm-cor</div>
+    <div class="estilo">.estilo</div>
+    <div>elemento</div>
+</body>
+
+</html>

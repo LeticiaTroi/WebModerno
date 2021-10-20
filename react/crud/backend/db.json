@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjds@empresa.com"
+    },
+    {
+      "name": "Maria Luísa",
+      "email": "luisa.2121@seila.com.br",
+      "id": 3
+    },
+    {
+      "name": "Leticia Oliveira",
+      "email": "leticia.troi@hotmail.com.br",
+      "id": 4
+    }
+  ]
+}
